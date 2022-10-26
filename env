@@ -14,17 +14,17 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
-# CI_ENVIRONMENT = production
+CI_ENVIRONMENT = development
 
 #--------------------------------------------------------------------
 # APP
 #--------------------------------------------------------------------
 
-# app.baseURL = ''
+app.baseURL = 'https://localhost/example/amir-skripsi/production_report/public'
 # app.forceGlobalSecureRequests = false
 
 # app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
-# app.sessionCookieName = 'ci_session'
+app.sessionCookieName = 'ci_session_ahyaniayas_skripsi-amir'
 # app.sessionExpiration = 7200
 # app.sessionSavePath = null
 # app.sessionMatchIP = false
@@ -37,11 +37,11 @@
 # DATABASE
 #--------------------------------------------------------------------
 
-# database.default.hostname = localhost
-# database.default.database = ci4
-# database.default.username = root
-# database.default.password = root
-# database.default.DBDriver = MySQLi
+database.default.hostname = localhost
+database.default.database = production_report
+database.default.username = root
+database.default.password = 
+database.default.DBDriver = MySQLi
 # database.default.DBPrefix =
 
 # database.tests.hostname = localhost
