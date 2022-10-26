@@ -20,7 +20,7 @@ CI_ENVIRONMENT = development
 # APP
 #--------------------------------------------------------------------
 
-app.baseURL = 'https://localhost/example/amir-skripsi/production_report/public'
+app.baseURL = 'https://localhost/example/amir-skripsi/amir-production-report/public'
 # app.forceGlobalSecureRequests = false
 
 # app.sessionDriver = 'CodeIgniter\Session\Handlers\FileHandler'
